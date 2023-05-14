@@ -10,10 +10,17 @@ background: -moz-linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%
 background: -webkit-linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7C0EC", endColorstr="#A7BDEA", GradientType=1 );
+
+  
 }
 
-.page-item {
+div.container {
+  line-height: 2em;
+}
+
+.page-link {
   color: black !important;
+  font-weight: 700;
 }
 
 .blog-header {
@@ -33,6 +40,15 @@ a {
   text-decoration: none;
 }
 
+
+ul,ol {
+  list-style-type: none;
+}
+article {
+padding-left: 1.5em;
+        text-indent:-1.5em;
+  
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
